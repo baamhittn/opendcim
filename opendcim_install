@@ -6,7 +6,7 @@ apt-get update
 
 apt-get -y upgrade
 
-apt-get -y install git mariadb-server php-snmp snmp-mibs-downloader php-curl graphviz apache2 php php-mysql php-mbstring php-snmp php-gd php-zip
+apt-get -y install git mariadb-server php-snmp snmp-mibs-downloader php-curl graphviz apache2 php php-mysql php-mbstring php-snmp php-gd php-zip php-xmlwriter php-xmlwriter
 
 git clone https://github.com/samilliken/openDCIM.git $install_dir
 
